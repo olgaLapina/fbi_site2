@@ -1,0 +1,56 @@
+p,
+h1,
+h2 {
+  padding: 0px;
+  margin: 0px;
+}
+.mainAboutUs {
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: center;
+}
+.moreAboutUs {
+  max-width: 800px;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+h2 {
+  color: blue;
+  padding: 5px;
+}
+.aboutUs {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.photo {
+  width: 250px;
+}
+.mainBlok {
+  width: 250px;
+}
+.pText {
+  text-align: start;
+}
+
+footer {
+  height: 100px;
+  background-color: #6c6d6f;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+.socialIcon {
+  height: 50px;
+  padding: 0 15px;
+}
+.social {
+  display: flex;
+}
+.socialIcon:hover {
+  cursor: pointer;
+  transform: scale(1.5);
+}
