@@ -12,29 +12,29 @@ header {
   width: 100px;
   height: 100px;
 }
-.imgLogo {
+.img-logo {
   width: 100%;
   height: 100%;
 }
 
-.headerInfo {
+.header-info {
   display: flex;
   color: white;
   padding-top: 20px;
 }
 
-.header_nav_link:hover {
+.header-nav-link:hover {
   text-decoration: underline;
   color: blanchedalmond;
 }
 
-.header_nav_link {
+.header-nav-link {
   text-decoration: none;
   margin: 10px;
   color: white;
 }
 
-.active_link {
+.active-link {
   text-decoration: underline;
   color: blanchedalmond;
 }
@@ -43,22 +43,22 @@ ul {
   list-style-type: none;
 }
 
-.mainPage {
+.main-page {
   width: 100%;
   height: 700px;
   background: url("img/main_img.jpg") no-repeat center;
 }
 
-input {
+.login-input {
   background-color: transparent;
   color: bisque;
 }
 
-label {
+.login-label {
   color: bisque;
 }
 
-button {
+.login-button {
   width: 100px;
   height: 35px;
   border-radius: 15px;
@@ -71,7 +71,7 @@ button:hover {
   background-color: rgb(237, 202, 159);
 }
 
-.formFlex {
+.form-flex {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -79,19 +79,19 @@ button:hover {
   padding-top: 240px;
 }
 
-.formLoginPassword {
+.form-login-password {
   display: flex;
   flex-direction: column;
   gap: 10px;
   width: 300px;
 }
 
-.formaInput {
+.forma-input {
   display: flex;
   justify-content: space-between;
 }
 
-.formaButton {
+.forma-button {
   display: flex;
   justify-content: center;
 }
